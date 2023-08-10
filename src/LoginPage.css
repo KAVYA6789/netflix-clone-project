@@ -1,0 +1,69 @@
+/* Add your CSS styles here */
+
+.loginPage {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginPage__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('Netfliximage.jpg'); 
+    background-size: cover;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.loginPage__gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    z-index: -1;
+}
+
+.loginPage__form {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.loginPage__logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.loginPage__form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.loginPage__button {
+    background-color: red; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; 
+}
+
+.loginPage__signup {
+    margin-top: 15px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
